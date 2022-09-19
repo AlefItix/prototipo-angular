@@ -1,0 +1,28 @@
+footer {
+    background: #102156;
+    font-weight: 500;
+    line-height: 36px;
+    height: 200px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+footer .informacoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+footer .informacoes>p {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 96px;
+    height: 48px;
+}
